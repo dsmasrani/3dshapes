@@ -1,14 +1,19 @@
 
 public class RectangularPrism extends Prism{
-	public RectangularPrism(double height) {
-		this(height,height,height);
+	private double height, length, width;
+	public RectangularPrism(double height, double length, double width) {
+		//this(height,height,height);
+		super(height, length, width);
+		this.height = height;
+		this.length = length;
+		this.width = width;
 	}
-	public RectangularPrism(double height, double width, double length) {
+	/*public RectangularPrism(double height, double width, double length) {
 		super(height);
 		this.width = width;
 		this.length = length;
 		// TODO Auto-generated constructor stub
-	}
+	 }*/
 	public double getSurfaceArea() {
 		double temp = ((height * width) * 2) + ((length * height) * 4);
 		return Math.round(temp*1.0)/1.0;

@@ -22,7 +22,7 @@ public class TestShape {
                 + "\nResulting Volume: " + Prism5.getVolume() + "\n");
 		
 		ThreeDShape Prism6 = new Cylinder(4, 10);
-		System.out.println("Cyliner " + "\nResulting Surface area: " + Prism6.getSurfaceArea()
+		System.out.println("Cylinder " + "\nResulting Surface area: " + Prism6.getSurfaceArea()
                 + "\nResulting Volume: " + Prism6.getVolume() + "\n");
 	}
 }

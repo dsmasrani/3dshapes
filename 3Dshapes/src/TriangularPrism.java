@@ -1,9 +1,12 @@
 
 public class TriangularPrism extends Prism {
+	private double height, width, length;
 	public TriangularPrism(double height, double length, double width) {
-		super(height);
+		super(height, length, width);
+		this.height = height;
 		this.length = length;
 		this.width = width;
+		
 		// TODO Auto-generated constructor stub
 	}
 	@Override
