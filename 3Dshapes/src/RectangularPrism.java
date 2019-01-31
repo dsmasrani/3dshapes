@@ -1,11 +1,7 @@
 
 public class RectangularPrism extends Prism{
-private double width;
-private double length;
 	public RectangularPrism(double height, double width, double length) {
-		super(height);
-		this.width = width;
-		this.height = height;
+		super(height, length, length);
 		
 		// TODO Auto-generated constructor stub
 	}
