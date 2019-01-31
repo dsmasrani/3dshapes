@@ -9,13 +9,15 @@ public class Sphere extends Circular {
 	@Override
 	public double getSurfaceArea() {
 		// TODO Auto-generated method stub
-		return 4*pi*radius*radius;
+		double temp = 4*pi*radius*radius;
+		return Math.round(temp*1.0)/1.0;
 	}
 
 	@Override
 	public double getVolume() {
 		// TODO Auto-generated method stub
-		return ((4/3)*pi) * (radius*radius*radius);
+		double temp = ((4/3)*pi) * (radius*radius*radius);
+		return Math.round(temp*1.0)/1.0;
 	}
 
 }
